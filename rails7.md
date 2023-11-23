@@ -99,8 +99,6 @@ $ bundle exec rails db:migrate
 
 ### Fakerを使ってダミーデータを作成する
 
-[Fakerを使ってダミーデータを作成する方法](https://www.notion.so/Faker-6403f832b93b43dfbc5fdbf7dccefd3b?pvs=21)
-
 # 掲示板一覧画面のルーティングを設定
 
 ```
