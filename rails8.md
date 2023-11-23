@@ -66,10 +66,6 @@ class BoardsController < ApplicaationController
 end
 ```
 
-[Board.allの説明](https://www.notion.so/Board-all-8ef2dc7f5a2841aaa6dc6187c6d25aec?pvs=21)
-
-[@board = current_user.boards.build(board_params)の説明](https://www.notion.so/board-current_user-boards-build-board_params-ca61aa242bf94897b000d00cc372d39f?pvs=21)
-
 # ビューファイルの作成
 
 ### 掲示板新規作成画面
@@ -105,10 +101,6 @@ end
 	<%= f.submit class: 'btn btn-primary' %>
 <% end %>
 ```
-
-[form_withの自動付与機能について](https://www.notion.so/form_with-9184b629c56f4c7cac0167b7f46a3a96?pvs=21)
-
-[form_withを使う形への修正方法、解説](https://www.notion.so/form_with-268893b670854f1aaa64a4d4473a95cd?pvs=21)
 
 - フォームのテキストエリアの入力幅はstyleで指定するのではなく、`rows:`で設定する。
     
